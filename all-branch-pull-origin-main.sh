@@ -1,6 +1,6 @@
 #!/bin/zsh
 
-if [ $# -eq 0 ];
+if [ $# -ne 1 ];
   then
     echo "error: expected only 1 parameter(file name)"
     sleep 0.1
