@@ -29,3 +29,16 @@ brew install tmux
 | new_session.sh  | 입력한 name으로 새로운 새션 생성     |
 | kill_session.sh | 입력한 name에 해당하는 세션 삭제     |
 | attach_session  | 입력한 name에 해당하는 세션으로 진입 |
+
+### dotfiles backup script
+
+dotfile 백업 디렉토리로 내용물 복사
+
+| 파일명   | 설명                                                        |
+| -------- | ----------------------------------------------------------- |
+| tmux.sh  | .tmux.conf와 .tmux.conf.local을 백업 디렉토리로 내용물 복사 |
+| zshrc.sh | .zshrc 백업 디렉토리로 내용물 복사                          |
+
+#### 추후 계획
+
+현재는 내 경로에 저장하지만 파라미터로 백업 경로를 받도록 수정 계획
